@@ -16,21 +16,21 @@
 }
   
 .container:first-child{
-  background-color: blue;
+  background-color: rgb(110, 110, 145);
   grid-area: header;
 }
   
 #footer {
-  background-color: green;
+  background-color: rgb(91, 181, 91);
   grid-area: footer;
 }
   
 #menu {
-  background-color: red;
+  background-color: rgb(167, 85, 85);
   grid-area: menu;
 }
   
 #main {
-  background-color: yellow;
+  background-color: rgb(174, 174, 93);
   grid-area: main;
 }
