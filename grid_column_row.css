@@ -1,0 +1,44 @@
+.grid-container {
+  width: 50%;
+  margin: 0 auto;
+  background-color: #171717;
+  border-radius: 0.5em;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 150px);
+  gap: 20px;
+}
+
+.grid-item {
+  min-height: 150px;
+  border-radius: 0.5em;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.grid-item-1 {
+  background-color: #fc4d4c;
+}
+
+.grid-item-2 {
+  background-color: #efb99f;
+  grid-row: 3;
+}
+
+.grid-item-3 {
+  background-color: #2e8d7e;
+}
+
+.grid-item-4 {
+  background-color: #713779;
+}
+
+.grid-item-5 {
+  background-color: #2e618d;
+}
+
+.grid-item-6 {
+  background-color: #e2cb35;
+}

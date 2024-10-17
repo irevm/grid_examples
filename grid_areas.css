@@ -6,16 +6,16 @@
 
 .container {
   display: grid;
-  grid-template-columns: repeat(5, 20%);
-  grid-template-rows: 100px auto 100px;
+  grid-template-columns: 200px auto;
+  grid-template-rows: 80px auto 80px;
   grid-template-areas:
-    "header header header header header"
-    "menu  main  main main main"
-    "footer  footer footer footer footer";
+    "header header"
+    "menu  main"
+    "footer  footer";
   height: 100vH;
 }
   
-#header{
+.container:first-child{
   background-color: blue;
   grid-area: header;
 }
